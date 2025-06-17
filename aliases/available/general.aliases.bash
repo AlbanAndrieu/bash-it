@@ -8,11 +8,11 @@ fi
 
 # List directory contents
 alias sl=ls
-alias la='ls -AF' # Compact view, show hidden
-alias ll='ls -al'
-alias l='ls -a'
-alias l1='ls -1'
-alias lf='ls -F'
+#alias la='ls -AF' # Compact view, show hidden
+#alias ll='ls -al'
+#alias l='ls -a'
+#alias l1='ls -1'
+#alias lf='ls -F'
 
 alias _='sudo'
 
@@ -37,7 +37,7 @@ alias cls='clear'
 alias edit='${EDITOR:-${ALTERNATE_EDITOR:-nano}}'
 alias pager='${PAGER:=less}'
 
-alias q='exit'
+#alias q='exit'
 
 alias irc='${IRC_CLIENT:=irc}'
 
